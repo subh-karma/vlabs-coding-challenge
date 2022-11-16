@@ -1,0 +1,57 @@
+<style>
+         h1 {
+  color: white;
+  font: Monospace;
+}
+h4{
+   color: black
+}
+         span {
+            font-size: 100px;
+          }
+      
+        table 
+        {
+          padding: 20px;
+          border: 5px solid #080f09;
+       
+             background-color:#17DEEE;
+         }
+         
+         h1 {
+  background-color:#FF4162;
+  border:5px solid #Ff0000;
+}
+input[type=button],
+      input[type=submit] {
+        background-color: #62529c;
+        border:3px solid #39FF14;
+        color: #fff;
+        padding: 15px 40px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      select {
+  // A reset of styles, including removing the default dropdown arrow
+  appearance: none;
+  // Additional resets for further consistency
+  background-color:transparent;
+  border: 5px solid #000000;
+  padding:0 1em 0 0;
+  margin: 0;
+  width: 20%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+td{
+   border: 3px solid #000000;
+}
+h1 {
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        }
+
+      </style>
