@@ -1,0 +1,90 @@
+<html>
+    <title>Sci Puzzle </title>
+    <br>
+<head>
+    <center> <h1> <b><---------------- Solve the Science exp----------------> </b></h1></center>
+</head>
+
+<br>
+<canvas id="myCanvas" width="1000" 
+height="900" 
+style="border:5px solid #000"
+colour="white" 
+  >
+  
+</canvas>
+
+<center><h2>Drag and Place image in right position </center>
+
+
+<style>
+body{ 
+    background-color: rgb(97, 175, 175);
+}
+h1 {
+    color: red;
+}
+h2{
+    color: brown;
+    padding: 5px;
+    box-shadow: #000;
+    }
+    canvas{
+               background-color: aliceblue;
+        
+    }
+    .s-img{
+           
+            object-fit: cover;
+            transition: width 250ms ease , height 258ms ease;
+            border-radius:5ps;
+
+        }
+        .s-img:hover{ 
+            width: 220px;
+            height: 220px;
+        }
+        .s-img:active{
+            width: 180px;
+            height: 180px;
+
+        }
+    
+</style>
+
+<body>
+
+    <div class="img">
+    <img src="1Flask.jpg" width="90" height="120" id="ab" class="s-img" alt="flask" >
+    <img src="2connect.jpg" width="300" height="50" id="cd" class="s-img" alt="connect1" >
+    <img src="3fill.jpg" width="90" height="300" id="ef" class="s-img" alt="fill">
+    <img src="4connect.jpg" width="70" height="120" id="hi" class="s-img" alt="connect2">
+    <img src="5flask.jpg" width="90" height="150" id="jk" class="s-img" alt="flask2">
+    <img src="6connect.jpg" width="50" height="100" id="lm" class="s-img" alt="connect3">
+    <img src="7roll.jpg" width="120" height="120" id="no" class="s-img" alt="roll">
+    <img src="9meter.jpg" width="220" height="160" id="pq" class="s-img" alt="meter">
+    <img src="8box.jpg" width="560" height="200" id="xx" alt="meter10" >
+        
+
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/draggabilly/3.0.0/draggabilly.pkgd.min.js" integrity="sha512-hbEWVzVt2yK7kQmJ1NZirxxO0NPtE4W09fT4f9Emem/n0rMPFHlLbuLcUcLNrtUGWGoQ8qGvKDVJnRRuCzjeZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>      
+
+window.onload=function(){
+        var canvas=document.getElementById('myCanvas');
+        var ctx=canvas.getContext("2d");
+        var img=document.getElementById('xx');
+        ctx.drawImage(img,430,600);
+        }
+
+
+        let el = document.getElementById('fal1');
+        let draggie =new Draggabilly(el);
+        
+ 
+</script>
+</body>
+
+ </HTML>       

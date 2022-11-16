@@ -1,0 +1,28 @@
+body{ 
+    background-color: rgb(97, 175, 175);
+}
+h1 {
+    color: red;
+}
+h2{
+    color: brown;
+    padding: 5px;
+    box-shadow: #000;
+    }
+    canvas{
+               background-color: aliceblue;
+               
+
+        
+        
+    }
+    .s-img{
+           
+            object-fit: cover;
+            transition: width 250ms ease , height 258ms ease;
+            border-radius:5ps;
+
+        }
+        
+        
+    
